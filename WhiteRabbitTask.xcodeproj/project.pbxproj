@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE52DB94285ECEF60008DEB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52DB93285ECEF60008DEB2 /* AppDelegate.swift */; };
+		CE52DB96285ECEF60008DEB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52DB95285ECEF60008DEB2 /* SceneDelegate.swift */; };
+		CE52DB98285ECEF60008DEB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52DB97285ECEF60008DEB2 /* ViewController.swift */; };
+		CE52DB9B285ECEF60008DEB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE52DB99285ECEF60008DEB2 /* Main.storyboard */; };
+		CE52DB9E285ECEF60008DEB2 /* WhiteRabbitTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE52DB9C285ECEF60008DEB2 /* WhiteRabbitTask.xcdatamodeld */; };
+		CE52DBA0285ECEF80008DEB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE52DB9F285ECEF80008DEB2 /* Assets.xcassets */; };
+		CE52DBA3285ECEF80008DEB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE52DBA1285ECEF80008DEB2 /* LaunchScreen.storyboard */; };
+		CE52DBAE285ECEF80008DEB2 /* WhiteRabbitTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52DBAD285ECEF80008DEB2 /* WhiteRabbitTaskTests.swift */; };
+		CE52DBB8285ECEF80008DEB2 /* WhiteRabbitTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52DBB7285ECEF80008DEB2 /* WhiteRabbitTaskUITests.swift */; };
+		CE52DBBA285ECEF80008DEB2 /* WhiteRabbitTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52DBB9285ECEF80008DEB2 /* WhiteRabbitTaskUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE52DBAA285ECEF80008DEB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE52DB88285ECEF60008DEB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE52DB8F285ECEF60008DEB2;
+			remoteInfo = WhiteRabbitTask;
+		};
+		CE52DBB4285ECEF80008DEB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE52DB88285ECEF60008DEB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE52DB8F285ECEF60008DEB2;
+			remoteInfo = WhiteRabbitTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE52DB90285ECEF60008DEB2 /* WhiteRabbitTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhiteRabbitTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE52DB93285ECEF60008DEB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE52DB95285ECEF60008DEB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE52DB97285ECEF60008DEB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE52DB9A285ECEF60008DEB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE52DB9D285ECEF60008DEB2 /* WhiteRabbitTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WhiteRabbitTask.xcdatamodel; sourceTree = "<group>"; };
+		CE52DB9F285ECEF80008DEB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE52DBA2285ECEF80008DEB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE52DBA4285ECEF80008DEB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE52DBA9285ECEF80008DEB2 /* WhiteRabbitTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhiteRabbitTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE52DBAD285ECEF80008DEB2 /* WhiteRabbitTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteRabbitTaskTests.swift; sourceTree = "<group>"; };
+		CE52DBB3285ECEF80008DEB2 /* WhiteRabbitTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhiteRabbitTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE52DBB7285ECEF80008DEB2 /* WhiteRabbitTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteRabbitTaskUITests.swift; sourceTree = "<group>"; };
+		CE52DBB9285ECEF80008DEB2 /* WhiteRabbitTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteRabbitTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE52DB8D285ECEF60008DEB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE52DBA6285ECEF80008DEB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE52DBB0285ECEF80008DEB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE52DB87285ECEF60008DEB2 = {
+			isa = PBXGroup;
+			children = (
+				CE52DB92285ECEF60008DEB2 /* WhiteRabbitTask */,
+				CE52DBAC285ECEF80008DEB2 /* WhiteRabbitTaskTests */,
+				CE52DBB6285ECEF80008DEB2 /* WhiteRabbitTaskUITests */,
+				CE52DB91285ECEF60008DEB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE52DB91285ECEF60008DEB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE52DB90285ECEF60008DEB2 /* WhiteRabbitTask.app */,
+				CE52DBA9285ECEF80008DEB2 /* WhiteRabbitTaskTests.xctest */,
+				CE52DBB3285ECEF80008DEB2 /* WhiteRabbitTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE52DB92285ECEF60008DEB2 /* WhiteRabbitTask */ = {
+			isa = PBXGroup;
+			children = (
+				CE52DB93285ECEF60008DEB2 /* AppDelegate.swift */,
+				CE52DB95285ECEF60008DEB2 /* SceneDelegate.swift */,
+				CE52DB97285ECEF60008DEB2 /* ViewController.swift */,
+				CE52DB99285ECEF60008DEB2 /* Main.storyboard */,
+				CE52DB9F285ECEF80008DEB2 /* Assets.xcassets */,
+				CE52DBA1285ECEF80008DEB2 /* LaunchScreen.storyboard */,
+				CE52DBA4285ECEF80008DEB2 /* Info.plist */,
+				CE52DB9C285ECEF60008DEB2 /* WhiteRabbitTask.xcdatamodeld */,
+			);
+			path = WhiteRabbitTask;
+			sourceTree = "<group>";
+		};
+		CE52DBAC285ECEF80008DEB2 /* WhiteRabbitTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE52DBAD285ECEF80008DEB2 /* WhiteRabbitTaskTests.swift */,
+			);
+			path = WhiteRabbitTaskTests;
+			sourceTree = "<group>";
+		};
+		CE52DBB6285ECEF80008DEB2 /* WhiteRabbitTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE52DBB7285ECEF80008DEB2 /* WhiteRabbitTaskUITests.swift */,
+				CE52DBB9285ECEF80008DEB2 /* WhiteRabbitTaskUITestsLaunchTests.swift */,
+			);
+			path = WhiteRabbitTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE52DB8F285ECEF60008DEB2 /* WhiteRabbitTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE52DBBD285ECEF80008DEB2 /* Build configuration list for PBXNativeTarget "WhiteRabbitTask" */;
+			buildPhases = (
+				CE52DB8C285ECEF60008DEB2 /* Sources */,
+				CE52DB8D285ECEF60008DEB2 /* Frameworks */,
+				CE52DB8E285ECEF60008DEB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhiteRabbitTask;
+			productName = WhiteRabbitTask;
+			productReference = CE52DB90285ECEF60008DEB2 /* WhiteRabbitTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE52DBA8285ECEF80008DEB2 /* WhiteRabbitTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE52DBC0285ECEF80008DEB2 /* Build configuration list for PBXNativeTarget "WhiteRabbitTaskTests" */;
+			buildPhases = (
+				CE52DBA5285ECEF80008DEB2 /* Sources */,
+				CE52DBA6285ECEF80008DEB2 /* Frameworks */,
+				CE52DBA7285ECEF80008DEB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE52DBAB285ECEF80008DEB2 /* PBXTargetDependency */,
+			);
+			name = WhiteRabbitTaskTests;
+			productName = WhiteRabbitTaskTests;
+			productReference = CE52DBA9285ECEF80008DEB2 /* WhiteRabbitTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE52DBB2285ECEF80008DEB2 /* WhiteRabbitTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE52DBC3285ECEF80008DEB2 /* Build configuration list for PBXNativeTarget "WhiteRabbitTaskUITests" */;
+			buildPhases = (
+				CE52DBAF285ECEF80008DEB2 /* Sources */,
+				CE52DBB0285ECEF80008DEB2 /* Frameworks */,
+				CE52DBB1285ECEF80008DEB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE52DBB5285ECEF80008DEB2 /* PBXTargetDependency */,
+			);
+			name = WhiteRabbitTaskUITests;
+			productName = WhiteRabbitTaskUITests;
+			productReference = CE52DBB3285ECEF80008DEB2 /* WhiteRabbitTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE52DB88285ECEF60008DEB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					CE52DB8F285ECEF60008DEB2 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					CE52DBA8285ECEF80008DEB2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = CE52DB8F285ECEF60008DEB2;
+					};
+					CE52DBB2285ECEF80008DEB2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = CE52DB8F285ECEF60008DEB2;
+					};
+				};
+			};
+			buildConfigurationList = CE52DB8B285ECEF60008DEB2 /* Build configuration list for PBXProject "WhiteRabbitTask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE52DB87285ECEF60008DEB2;
+			productRefGroup = CE52DB91285ECEF60008DEB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE52DB8F285ECEF60008DEB2 /* WhiteRabbitTask */,
+				CE52DBA8285ECEF80008DEB2 /* WhiteRabbitTaskTests */,
+				CE52DBB2285ECEF80008DEB2 /* WhiteRabbitTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE52DB8E285ECEF60008DEB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE52DBA3285ECEF80008DEB2 /* LaunchScreen.storyboard in Resources */,
+				CE52DBA0285ECEF80008DEB2 /* Assets.xcassets in Resources */,
+				CE52DB9B285ECEF60008DEB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE52DBA7285ECEF80008DEB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE52DBB1285ECEF80008DEB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE52DB8C285ECEF60008DEB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE52DB9E285ECEF60008DEB2 /* WhiteRabbitTask.xcdatamodeld in Sources */,
+				CE52DB98285ECEF60008DEB2 /* ViewController.swift in Sources */,
+				CE52DB94285ECEF60008DEB2 /* AppDelegate.swift in Sources */,
+				CE52DB96285ECEF60008DEB2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE52DBA5285ECEF80008DEB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE52DBAE285ECEF80008DEB2 /* WhiteRabbitTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE52DBAF285ECEF80008DEB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE52DBB8285ECEF80008DEB2 /* WhiteRabbitTaskUITests.swift in Sources */,
+				CE52DBBA285ECEF80008DEB2 /* WhiteRabbitTaskUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE52DBAB285ECEF80008DEB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE52DB8F285ECEF60008DEB2 /* WhiteRabbitTask */;
+			targetProxy = CE52DBAA285ECEF80008DEB2 /* PBXContainerItemProxy */;
+		};
+		CE52DBB5285ECEF80008DEB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE52DB8F285ECEF60008DEB2 /* WhiteRabbitTask */;
+			targetProxy = CE52DBB4285ECEF80008DEB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE52DB99285ECEF60008DEB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE52DB9A285ECEF60008DEB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE52DBA1285ECEF80008DEB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE52DBA2285ECEF80008DEB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE52DBBB285ECEF80008DEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE52DBBC285ECEF80008DEB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE52DBBE285ECEF80008DEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhiteRabbitTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abcd.WhiteRabbitTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE52DBBF285ECEF80008DEB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhiteRabbitTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abcd.WhiteRabbitTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE52DBC1285ECEF80008DEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abcd.WhiteRabbitTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhiteRabbitTask.app/WhiteRabbitTask";
+			};
+			name = Debug;
+		};
+		CE52DBC2285ECEF80008DEB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abcd.WhiteRabbitTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhiteRabbitTask.app/WhiteRabbitTask";
+			};
+			name = Release;
+		};
+		CE52DBC4285ECEF80008DEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abcd.WhiteRabbitTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhiteRabbitTask;
+			};
+			name = Debug;
+		};
+		CE52DBC5285ECEF80008DEB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abcd.WhiteRabbitTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhiteRabbitTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE52DB8B285ECEF60008DEB2 /* Build configuration list for PBXProject "WhiteRabbitTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE52DBBB285ECEF80008DEB2 /* Debug */,
+				CE52DBBC285ECEF80008DEB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE52DBBD285ECEF80008DEB2 /* Build configuration list for PBXNativeTarget "WhiteRabbitTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE52DBBE285ECEF80008DEB2 /* Debug */,
+				CE52DBBF285ECEF80008DEB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE52DBC0285ECEF80008DEB2 /* Build configuration list for PBXNativeTarget "WhiteRabbitTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE52DBC1285ECEF80008DEB2 /* Debug */,
+				CE52DBC2285ECEF80008DEB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE52DBC3285ECEF80008DEB2 /* Build configuration list for PBXNativeTarget "WhiteRabbitTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE52DBC4285ECEF80008DEB2 /* Debug */,
+				CE52DBC5285ECEF80008DEB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE52DB9C285ECEF60008DEB2 /* WhiteRabbitTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE52DB9D285ECEF60008DEB2 /* WhiteRabbitTask.xcdatamodel */,
+			);
+			currentVersion = CE52DB9D285ECEF60008DEB2 /* WhiteRabbitTask.xcdatamodel */;
+			path = WhiteRabbitTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE52DB88285ECEF60008DEB2 /* Project object */;
+}
