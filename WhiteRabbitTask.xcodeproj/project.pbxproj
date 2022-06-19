@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE03F9FB285EE7F7005810D8 /* EmployeesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03F9F9285EE7F7005810D8 /* EmployeesListVC.swift */; };
+		CE03F9FC285EE7F7005810D8 /* EmployeesTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03F9FA285EE7F7005810D8 /* EmployeesTVCell.swift */; };
+		CE03FA01285EE873005810D8 /* EmployeeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03FA00285EE873005810D8 /* EmployeeDetailVC.swift */; };
 		CE52DB94285ECEF60008DEB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52DB93285ECEF60008DEB2 /* AppDelegate.swift */; };
 		CE52DB96285ECEF60008DEB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52DB95285ECEF60008DEB2 /* SceneDelegate.swift */; };
-		CE52DB98285ECEF60008DEB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52DB97285ECEF60008DEB2 /* ViewController.swift */; };
 		CE52DB9B285ECEF60008DEB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE52DB99285ECEF60008DEB2 /* Main.storyboard */; };
 		CE52DB9E285ECEF60008DEB2 /* WhiteRabbitTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE52DB9C285ECEF60008DEB2 /* WhiteRabbitTask.xcdatamodeld */; };
 		CE52DBA0285ECEF80008DEB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE52DB9F285ECEF80008DEB2 /* Assets.xcassets */; };
@@ -17,6 +19,10 @@
 		CE52DBAE285ECEF80008DEB2 /* WhiteRabbitTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52DBAD285ECEF80008DEB2 /* WhiteRabbitTaskTests.swift */; };
 		CE52DBB8285ECEF80008DEB2 /* WhiteRabbitTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52DBB7285ECEF80008DEB2 /* WhiteRabbitTaskUITests.swift */; };
 		CE52DBBA285ECEF80008DEB2 /* WhiteRabbitTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52DBB9285ECEF80008DEB2 /* WhiteRabbitTaskUITestsLaunchTests.swift */; };
+		CE52DBCD285ED1D80008DEB2 /* EmployeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52DBCC285ED1D80008DEB2 /* EmployeeModel.swift */; };
+		CE52DBD0285ED3C90008DEB2 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52DBCF285ED3C90008DEB2 /* APICaller.swift */; };
+		CE52DBD2285ED4400008DEB2 /* EmployeesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52DBD1285ED4400008DEB2 /* EmployeesViewModel.swift */; };
+		CE52DBD6285ED6540008DEB2 /* ViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52DBD5285ED6540008DEB2 /* ViewControllerExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE03F9F9285EE7F7005810D8 /* EmployeesListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeesListVC.swift; sourceTree = "<group>"; };
+		CE03F9FA285EE7F7005810D8 /* EmployeesTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeesTVCell.swift; sourceTree = "<group>"; };
+		CE03FA00285EE873005810D8 /* EmployeeDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailVC.swift; sourceTree = "<group>"; };
 		CE52DB90285ECEF60008DEB2 /* WhiteRabbitTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhiteRabbitTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE52DB93285ECEF60008DEB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE52DB95285ECEF60008DEB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE52DB97285ECEF60008DEB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE52DB9A285ECEF60008DEB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE52DB9D285ECEF60008DEB2 /* WhiteRabbitTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WhiteRabbitTask.xcdatamodel; sourceTree = "<group>"; };
 		CE52DB9F285ECEF80008DEB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +59,10 @@
 		CE52DBB3285ECEF80008DEB2 /* WhiteRabbitTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhiteRabbitTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE52DBB7285ECEF80008DEB2 /* WhiteRabbitTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteRabbitTaskUITests.swift; sourceTree = "<group>"; };
 		CE52DBB9285ECEF80008DEB2 /* WhiteRabbitTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteRabbitTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE52DBCC285ED1D80008DEB2 /* EmployeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeModel.swift; sourceTree = "<group>"; };
+		CE52DBCF285ED3C90008DEB2 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		CE52DBD1285ED4400008DEB2 /* EmployeesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesViewModel.swift; sourceTree = "<group>"; };
+		CE52DBD5285ED6540008DEB2 /* ViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +90,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE03F9F8285EE7F7005810D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE03F9F9285EE7F7005810D8 /* EmployeesListVC.swift */,
+				CE03FA00285EE873005810D8 /* EmployeeDetailVC.swift */,
+				CE03F9FA285EE7F7005810D8 /* EmployeesTVCell.swift */,
+			);
+			name = View;
+			path = "WhiteRabbitTask/Employees List/View";
+			sourceTree = SOURCE_ROOT;
+		};
 		CE52DB87285ECEF60008DEB2 = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +124,11 @@
 		CE52DB92285ECEF60008DEB2 /* WhiteRabbitTask */ = {
 			isa = PBXGroup;
 			children = (
+				CE52DBD7285EE7810008DEB2 /* Employees List */,
+				CE52DBD4285ED6340008DEB2 /* Extensions */,
+				CE52DBCE285ED3B90008DEB2 /* APICaller */,
 				CE52DB93285ECEF60008DEB2 /* AppDelegate.swift */,
 				CE52DB95285ECEF60008DEB2 /* SceneDelegate.swift */,
-				CE52DB97285ECEF60008DEB2 /* ViewController.swift */,
 				CE52DB99285ECEF60008DEB2 /* Main.storyboard */,
 				CE52DB9F285ECEF80008DEB2 /* Assets.xcassets */,
 				CE52DBA1285ECEF80008DEB2 /* LaunchScreen.storyboard */,
@@ -128,6 +153,48 @@
 				CE52DBB9285ECEF80008DEB2 /* WhiteRabbitTaskUITestsLaunchTests.swift */,
 			);
 			path = WhiteRabbitTaskUITests;
+			sourceTree = "<group>";
+		};
+		CE52DBCB285ED1C50008DEB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE52DBCC285ED1D80008DEB2 /* EmployeeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE52DBCE285ED3B90008DEB2 /* APICaller */ = {
+			isa = PBXGroup;
+			children = (
+				CE52DBCF285ED3C90008DEB2 /* APICaller.swift */,
+			);
+			path = APICaller;
+			sourceTree = "<group>";
+		};
+		CE52DBD3285ED4490008DEB2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE52DBD1285ED4400008DEB2 /* EmployeesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE52DBD4285ED6340008DEB2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE52DBD5285ED6540008DEB2 /* ViewControllerExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CE52DBD7285EE7810008DEB2 /* Employees List */ = {
+			isa = PBXGroup;
+			children = (
+				CE52DBD3285ED4490008DEB2 /* ViewModel */,
+				CE03F9F8285EE7F7005810D8 /* View */,
+				CE52DBCB285ED1C50008DEB2 /* Model */,
+			);
+			path = "Employees List";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +328,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE03F9FB285EE7F7005810D8 /* EmployeesListVC.swift in Sources */,
+				CE52DBD2285ED4400008DEB2 /* EmployeesViewModel.swift in Sources */,
 				CE52DB9E285ECEF60008DEB2 /* WhiteRabbitTask.xcdatamodeld in Sources */,
-				CE52DB98285ECEF60008DEB2 /* ViewController.swift in Sources */,
+				CE52DBD0285ED3C90008DEB2 /* APICaller.swift in Sources */,
+				CE52DBCD285ED1D80008DEB2 /* EmployeeModel.swift in Sources */,
+				CE03FA01285EE873005810D8 /* EmployeeDetailVC.swift in Sources */,
+				CE03F9FC285EE7F7005810D8 /* EmployeesTVCell.swift in Sources */,
 				CE52DB94285ECEF60008DEB2 /* AppDelegate.swift in Sources */,
+				CE52DBD6285ED6540008DEB2 /* ViewControllerExtensions.swift in Sources */,
 				CE52DB96285ECEF60008DEB2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
