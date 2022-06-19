@@ -20,6 +20,6 @@
         <attribute name="zipcode" optional="YES" attributeType="String"/>
     </entity>
     <elements>
-        <element name="EmployeeDetails" positionX="-63" positionY="-18" width="128" height="14"/>
+        <element name="EmployeeDetails" positionX="-63" positionY="-18" width="128" height="284"/>
     </elements>
 </model>

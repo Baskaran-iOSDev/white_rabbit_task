@@ -72,7 +72,11 @@ extension EmployeesListVC: UITableViewDelegate, UITableViewDataSource{
         let dict = employeesViewModel.getEmployeeDataForCell(indexPath: indexPath)
         cell.companyName.text = dict.company?.name
         cell.employeeName.text = dict.username
-        cell.employeeImg.image = getImage(imgUrlString: dict.profile_image ?? "")
+        if let dataa = dict.imgData{
+            cell.employeeImg.image = UIImage(data: dataa)
+        } else {
+            cell.employeeImg.image = getImage(imgUrlString: dict.profile_image ?? "")
+        }
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

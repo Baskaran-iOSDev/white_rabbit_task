@@ -67,7 +67,10 @@ class EmployeesViewModel {
                 self.employeesNormalArray = response!
                 self.employeesArray = self.employeesNormalArray
                 for i in self.employeesArray{
-                    self.saveCoreData(employeeData: i)
+                    DispatchQueue.main.async {
+                        self.saveCoreData(employeeData: i)
+                    }
+                    
                 }
                 self.reloadTableView?()
             } else {
@@ -99,6 +102,13 @@ class EmployeesViewModel {
         employeeDetail.setValue(employeeData.company?.catchPhrase, forKey: "catchPhrase")
         employeeDetail.setValue(employeeData.company?.bs, forKey: "bs")
         
+        if let imgUrl = URL(string: employeeData.profile_image ?? ""){
+            if let data = try? Data(contentsOf: imgUrl){
+                let imgdata = UIImage(data: data)?.jpegData(compressionQuality: 0.2)
+                employeeDetail.setValue(imgdata, forKey: "imgData")
+            }
+        }
+        
         do {
             try managedContext.save()
             
@@ -121,7 +131,7 @@ class EmployeesViewModel {
             for i in allData{
                 let obj = EmployeeData(id: (i.value(forKey: "id") as? Int), name: (i.value(forKey: "name") as? String), username: (i.value(forKey: "username") as? String), email: (i.value(forKey: "email") as? String), profile_image: (i.value(forKey: "profile_image") as? String),
                                        address: Address(street: (i.value(forKey: "street") as? String), suite: (i.value(forKey: "suite") as? String), city: (i.value(forKey: "city") as? String), zipcode: (i.value(forKey: "zipcode") as? String), geo: Coordinates(lat: (i.value(forKey: "lat") as? String), lng: (i.value(forKey: "lng") as? String))),
-                                       phone: (i.value(forKey: "phone") as? String), website: (i.value(forKey: "website") as? String), company: CompanyData(name: (i.value(forKey: "name") as? String), catchPhrase: (i.value(forKey: "catchPhrase") as? String), bs: (i.value(forKey: "bs") as? String)))
+                                       phone: (i.value(forKey: "phone") as? String), website: (i.value(forKey: "website") as? String), company: CompanyData(name: (i.value(forKey: "name") as? String), catchPhrase: (i.value(forKey: "catchPhrase") as? String), bs: (i.value(forKey: "bs") as? String)),imgData: (i.value(forKey: "imgData") as? Data))
                 employeesNormalArray.append(obj)
             }
                 employeesArray = employeesNormalArray

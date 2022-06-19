@@ -17,6 +17,7 @@ struct EmployeeData: Codable {
     var phone: String?
     var website: String?
     var company: CompanyData?
+    var imgData: Data?
 }
 
 struct Address: Codable {

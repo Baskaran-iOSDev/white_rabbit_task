@@ -18,9 +18,9 @@ extension UIViewController {
     
     func getImage(imgUrlString: String) -> UIImage{
         if let imgUrl = URL(string: imgUrlString){
-            let data = try? Data(contentsOf: imgUrl)
-            return UIImage(data: data!)!
+            guard let data = try? Data(contentsOf: imgUrl) else {return UIImage(named: "placeholder")!}
+            return UIImage(data: data)!
         }
-        return UIImage()
+        return UIImage(named: "placeholder")!
     }
 }
